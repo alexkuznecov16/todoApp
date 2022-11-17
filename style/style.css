@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
 
+
+/*! Basic classes ============================================================= */
 body {
     width: 100%;
     height: 100%;
@@ -14,8 +16,8 @@ body {
 }
 
 .container {
-    width: 100%;
     max-width: 1200px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -103,6 +105,7 @@ body {
 
 
 /*! Footer block ============================================================= */
+/** Fotter block settings  */
 .footer {
     width: 100%;
     background-color: #979797;
@@ -110,6 +113,8 @@ body {
     position: absolute;
     top: 687px;
 }
+
+/** Fotter text settings  */
 .footer-text {
     text-align: center;
     padding: 50px;
