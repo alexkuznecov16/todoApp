@@ -191,12 +191,28 @@ body {
 }
 
 @media screen and (max-width:262px) {
+    .header-text {
+        font-size: 15px;
+    }
+    .wrapper {
+        top: 118px;
+    }
     .main h2{
         margin: 20px;
     }
 
     .main p:last-child {
         margin-bottom: 30px;
+    }
+
+    .footer {
+        top: 644px;
+    }
+}
+
+@media screen and (max-width:232px) {
+    .wrapper {
+        top: 137px;
     }
 }
 
